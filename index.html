@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>
+    Frontend Mentor | News homepage
+  </title>
+  
+</head>
+<body>
+  <main class="container">
+    <div class="nav-bar">
+      <div class="left-section">
+        <img alt="W-icon" src="assets/images/logo.svg">
+      </div>
+  
+      <div class="right-section">
+        <button class="menu-button js-menu-button">
+          <img alt="menu-alt" src="assets/images/icon-menu.svg">
+        </button>
+        <nav class="nav-menu">
+          <button class="close-button js-close-button">
+            <img alt="menu-close" src="assets/images/icon-menu-close.svg">
+          </button>
+          <button class="nav-button">Home</button>
+          <button class="nav-button">New</button>
+          <button class="nav-button">Popular</button>
+          <button class="nav-button">Trending</button>
+          <button class="nav-button">Categories</button>
+        </nav>
+      </div>
+    </div>
+
+    <div class="content-page">
+      <div class="intro-and-news">
+        <div class="intro-section">
+          <div class="main-image-nest">
+            <img class="main-image" alt="main-image" src="assets/images/image-web-3-desktop.jpg">
+          </div>
+          
+          <div class="title-and-info">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div class="info">
+              <h5>
+                We dive into the next evolution of the web that claims to
+                put the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </h5>
+
+              <button class="read-more-button">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hot-news">
+          <h2>New</h2>
+          
+          <div class="news-section">  
+            <div class="news news-1">
+              <h3>Hydrogen VS Electric Cars</h3>
+              <h5>
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </h5>
+              
+            </div>
+
+            <div class="news news-2">
+              <h3>The Downsides of AI Artistry</h3>
+              <h5>
+                What are the possible adverse effects of
+                on-demand AI image generation?
+              </h5>
+            </div>
+
+            <div class="news news-3">
+              <h3>Is VC Funding Drying Up?</h3>
+              <h5>
+                Private Funding by VC firms is down 50%
+                YOY. We take a look at what that means.
+              </h5>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--bottom products-->
+      <div class="product-list">
+        <div class="product">
+          <div class="product-image-nest">
+            <img class="product-image" alt="rand-text" src="assets/images/image-retro-pcs.jpg">
+          </div>
+          <div class="product-info">
+            <div class="number">01</div>
+            <div class="name">Reviving Retro PCs</div>
+            <div class="content">
+              What happens when old PCs are
+              given modern upgrades?
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-image-nest">
+            <img class="product-image" alt="rand-text" src="assets/images/image-top-laptops.jpg">
+          </div>
+          <div class="product-info">
+            <div class="number">02</div>
+            <div class="name">Top 10 Laptops of 2022</div>
+            <div class="content">
+              Our best picks for various needs and budgets.
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product-image-nest">
+            <img class="product-image" alt="rand-text" src="assets/images/image-gaming-growth.jpg">
+          </div>
+          <div class="product-info">
+            <div class="number">03</div>
+            <div class="name">The Growth of Gaming</div>
+            <div class="content">
+              How the pandemic has sparked fresh opportunities.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/progressive-newbie263">JackFrost</a>.
+    </div>
+  </main>
+
+</body>
+
+<script src="script.js"></script>
+</html>
